@@ -23,7 +23,7 @@ function spam(){
     setTimeout(spam,1);
   }
   else { 
-    dispatch(campo, "textInput", "Enough poop for today");
+    dispatch(campo, "textInput", "Enough poop for today"); // Msg when the loop finish
     var input = document.getElementsByClassName("icon btn-icon icon-send");
     input[0].click();
   }
