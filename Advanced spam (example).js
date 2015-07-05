@@ -1,5 +1,5 @@
 campo = document.getElementsByClassName("input")[1]; // Grabs the input field
-contador1 = 0;
+contador1 = 1;
 function dispatch(target, eventType, char) {
    var evt = document.createEvent("TextEvent");    
    evt.initTextEvent (eventType, true, true, window, char, 0, "en-US");
@@ -16,7 +16,7 @@ function spam(){
     new_emot.setAttributeNode(new_src);
     new_emot.setAttributeNode(new_alt);
     campo.appendChild(new_emot); // Puts emoji into the input field
-    dispatch(campo, "textInput", "You have been poop'd "+contador1+" times ");
+    dispatch(campo, "textInput", "You have been visited "+contador1+" times by Mr.");
     var input = document.getElementsByClassName("icon btn-icon icon-send");//Grabs the send button
     input[0].click();// Clicks the send button
     contador1++;
