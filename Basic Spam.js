@@ -1,4 +1,3 @@
-<code>
 campo = document.getElementsByClassName("input")[1]; // Grabs the input field
 contador1 = 0;
 function dispatch(target, eventType, char) {
@@ -17,4 +16,3 @@ function spam(){
   }
 }
 spam();
-</code>
