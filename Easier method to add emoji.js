@@ -8,7 +8,7 @@ function dispatch(target, eventType, char) {
 }
 function spam(){
   if (contador1<5){   // How many times spam will exexcute
-    dispatch(campo, "textInput", contador1+" Chivos"); // Msg to be texted
+    dispatch(campo, "textInput", contador1+" Goats"); // Msg to be texted
     for(contador2=1;contador2<=contador1;contador2++){
        dispatch(campo, "textInput", "🐐"); // Adds emoji
     }
